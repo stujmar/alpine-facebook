@@ -1,6 +1,11 @@
 $primary-color: rgb(105, 59, 59);
 $accent-color: rgb(209, 180, 127);
 $text-color: white;
+$font-weights: (
+    "regular": 400,
+    "medium": 500,
+    "bold": 700
+);
 
 * {
     margin: 0;
@@ -8,5 +13,15 @@ $text-color: white;
 }
 
 body {
-    background: blue;
+    background: $primary-color;
+}
+
+.main {
+    color: $text-color;
+    width: 80%;
+    margin: 50px auto;
+    
+    p {
+        font-weight: map-get($font-weights, bold );
+    }
 }

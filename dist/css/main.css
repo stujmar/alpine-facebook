@@ -4,5 +4,14 @@
 }
 
 body {
-  background: blue;
+  background: #693b3b;
+}
+
+.main {
+  color: white;
+  width: 80%;
+  margin: 50px auto;
+}
+.main p {
+  font-weight: 700;
 }
