@@ -346,12 +346,15 @@ template {
     flex-direction: column !important;
   }
 }
-.main .main_paragraph {
+.main .main_paragraph_one, .main .main_paragraph_two {
   font-weight: weight(regular);
   cursor: pointer;
 }
-.main .main_paragraph:hover {
+.main .main_paragraph_one:hover, .main .main_paragraph_two:hover {
   color: #b86371;
+}
+.main .main_paragraph_two {
+  border-bottom: 1px solid white;
 }
 
 .light {
