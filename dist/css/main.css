@@ -357,7 +357,7 @@ body {
   margin: 50px auto;
 }
 .main .main_paragraph {
-  font-weight: 700;
+  font-weight: 400;
   cursor: pointer;
 }
 .main .main_paragraph:hover {

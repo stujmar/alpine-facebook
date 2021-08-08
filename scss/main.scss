@@ -2,6 +2,10 @@
 @import './variables';
 @import './partials/about';
 
+@function weight($weight-name) {
+    @return map-get($font-weights, $weight-name);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +22,8 @@ body {
     margin: 50px auto;
     
     #{&}_paragraph {
-        font-weight: map-get($font-weights, bold );
+        // font-weight: map-get($font-weights, bold );
+        font-weight: weight(regular);
         cursor: pointer;
         
         &:hover {
