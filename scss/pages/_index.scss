@@ -1,10 +1,12 @@
 .main {
+    @include flexCenter(row);
     color: $text-color;
     width: 80%;
-    margin: 50px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 50px auto 0px;
+
+    @include mobile{
+        flex-direction: column !important;
+    }
     
     #{&}_paragraph {
         // font-weight: map-get($font-weights, bold );
@@ -15,4 +17,8 @@
             color:rgb(184, 99, 113);
         }
     }
+}
+
+.light {
+    @include theme($light-theme: true);
 }

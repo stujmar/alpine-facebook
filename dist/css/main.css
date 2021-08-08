@@ -332,12 +332,19 @@ template {
 }
 
 .main {
-  color: white;
-  width: 80%;
-  margin: 50px auto;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+  color: white;
+  width: 80%;
+  margin: 50px auto 0px;
+}
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column !important;
+  }
 }
 .main .main_paragraph {
   font-weight: weight(regular);
@@ -345,6 +352,11 @@ template {
 }
 .main .main_paragraph:hover {
   color: #b86371;
+}
+
+.light {
+  background: white;
+  color: black;
 }
 
 .about {
@@ -360,4 +372,8 @@ template {
 body {
   background: #693b3b;
   padding: 25px;
+}
+
+p {
+  margin-bottom: 0;
 }

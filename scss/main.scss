@@ -1,5 +1,6 @@
 @import './normalize';
 @import './variables';
+@import './utils/mixins';
 
 @import './pages/index';
 @import './pages/about';
@@ -11,4 +12,8 @@
 body {
     background: $primary-color;
     padding: 25px
+}
+
+p {
+    margin-bottom: 0;
 }
