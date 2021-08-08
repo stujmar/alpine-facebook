@@ -1,0 +1,18 @@
+.main {
+    color: $text-color;
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    #{&}_paragraph {
+        // font-weight: map-get($font-weights, bold );
+        font-weight: weight(regular);
+        cursor: pointer;
+        
+        &:hover {
+            color:rgb(184, 99, 113);
+        }
+    }
+}

@@ -331,6 +331,22 @@ template {
   display: none;
 }
 
+.main {
+  color: white;
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .main_paragraph {
+  font-weight: weight(regular);
+  cursor: pointer;
+}
+.main .main_paragraph:hover {
+  color: #b86371;
+}
+
 .about {
   border: 5px red solid;
 }
@@ -341,25 +357,7 @@ template {
   border: 5px blue solid;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background: #693b3b;
   padding: 25px;
-}
-
-.main {
-  color: white;
-  width: 80%;
-  margin: 50px auto;
-}
-.main .main_paragraph {
-  font-weight: 400;
-  cursor: pointer;
-}
-.main .main_paragraph:hover {
-  color: #b86371;
 }
