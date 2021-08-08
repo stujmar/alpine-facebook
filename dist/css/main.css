@@ -331,6 +331,16 @@ template {
   display: none;
 }
 
+.about {
+  border: 5px red solid;
+}
+.about .about_title {
+  border: 5px green solid;
+}
+.about .about_body {
+  border: 5px blue solid;
+}
+
 * {
   margin: 0;
   padding: 0;

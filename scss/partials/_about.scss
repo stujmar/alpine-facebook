@@ -1,0 +1,11 @@
+.about {
+    border: 5px red solid;
+    #{&}_title {
+        border: 5px green solid;
+    }
+
+    #{&}_body {
+        border: 5px blue solid;
+    }
+
+}
