@@ -1,3 +1,13 @@
+.home {
+    height: 100%;
+    padding-top: 20vh;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    background: url('../img/bg.jpg') center top;
+    background-size: cover;
+}
+
 .main {
     @include flexCenter(row);
     color: $text-color;

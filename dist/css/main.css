@@ -331,6 +331,16 @@ template {
   display: none;
 }
 
+.home {
+  height: 100%;
+  padding-top: 20vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: url("../img/bg.jpg") center top;
+  background-size: cover;
+}
+
 .main {
   display: flex;
   flex-direction: row;
@@ -374,7 +384,8 @@ template {
 
 body {
   background: #693b3b;
-  padding: 25px;
+  height: 100vh;
+  overflow: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
 }

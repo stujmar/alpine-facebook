@@ -12,8 +12,9 @@
 
 body {
     background: $primary-color;
-    padding: 25px;
-    // height: 100vh;
+    // padding: 25px;
+    height: 100vh;
+    overflow: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1;
 }
