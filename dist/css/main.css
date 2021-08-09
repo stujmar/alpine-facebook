@@ -337,7 +337,7 @@ template {
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: url("../img/bg.jpg") center top;
+  background: linear-gradient(to right, rgba(105, 59, 59, 0.4), rgba(105, 59, 59, 0.1)), url("../img/bg.jpg") center top;
   background-size: cover;
 }
 

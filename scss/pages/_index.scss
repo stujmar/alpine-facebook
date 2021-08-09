@@ -4,7 +4,13 @@
     overflow: hidden;
     align-items: center;
     text-align: center;
-    background: url('../img/bg.jpg') center top;
+    background: 
+        linear-gradient(
+            to right, 
+            rgba($primary-color, 0.4),
+            rgba($primary-color, 0.1)
+            ),
+        url('../img/bg.jpg') center top;
     background-size: cover;
 }
 
