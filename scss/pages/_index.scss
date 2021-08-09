@@ -1,5 +1,6 @@
 .home {
     height: 100%;
+    color: #fff;
     padding-top: 20vh;
     overflow: hidden;
     align-items: center;
@@ -12,6 +13,19 @@
             ),
         url('../img/bg.jpg') center top;
     background-size: cover;
+
+    &_name {
+        font-size: 5rem;
+        margin-bottom: 0;
+        // padding-bottom: .25rem;
+        margin-top: 1rem;
+        border-bottom: 2px solid $accent-color;
+        color: $accent-color;
+
+        &--last {
+            color: $accent-color;
+        }
+    }
 }
 
 .main {
