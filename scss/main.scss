@@ -1,5 +1,6 @@
-@import './normalize';
-@import './variables';
+@import './utils/normalize';
+@import './utils/config';
+@import './utils/variables';
 @import './utils/mixins';
 
 @import './pages/index';
@@ -11,9 +12,53 @@
 
 body {
     background: $primary-color;
-    padding: 25px
+    padding: 25px;
+    // height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
 }
 
-p {
-    margin-bottom: 0;
+h1, h2, h3 {
+    font-weight: 400;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    padding: 1rem;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+
+    .social-icons {
+        position: fixed;
+        bottom: 1rem;
+        left: 1rem;
+
+        a {
+            padding: 0.4rem;
+
+            &:hover {
+                color: $accent-color;
+            }
+        }
+    }
+}
+
+footer {
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0.4rem;
+    right: 1rem;
+    text-align: right;
+    padding: 1rem;
+    color: $text-color;
 }
