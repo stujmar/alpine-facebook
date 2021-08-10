@@ -12,6 +12,7 @@
 
 body {
     background: $primary-color;
+    color: set-text-color($primary-color);
     // padding: 25px;
     height: 100vh;
     overflow: hidden;
