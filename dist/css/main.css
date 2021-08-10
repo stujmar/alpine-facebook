@@ -430,6 +430,10 @@ template {
   background: #fff;
   transition: all 0.25s ease-in-out;
 }
+.menu-btn_burger.open {
+  transform: rotate(360deg);
+  background: transparent;
+}
 
 body {
   background: #693b3b;

@@ -36,5 +36,10 @@
             background: set-text-color($primary-color);
             @include transition-ease;
         }
+
+        &.open {
+            transform: rotate(360deg);
+            background: transparent;
+        }
     }
 }
