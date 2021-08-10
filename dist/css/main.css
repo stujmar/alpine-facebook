@@ -403,6 +403,15 @@ template {
   cursor: pointer;
   transition: all 0.25s ease-in-out;
 }
+.menu-btn_burger {
+  position: absolute;
+  right: 2rem;
+  top: 0.5rem;
+  width: 28px;
+  height: 3px;
+  background: #fff;
+  transition: all 0.25s ease-in-out;
+}
 
 body {
   background: #693b3b;
