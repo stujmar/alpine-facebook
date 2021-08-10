@@ -421,6 +421,15 @@ template {
   background: #fff;
   transition: all 0.25s ease-in-out;
 }
+.menu-btn_burger::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  width: 20px;
+  height: 3px;
+  background: #fff;
+  transition: all 0.25s ease-in-out;
+}
 
 body {
   background: #693b3b;
