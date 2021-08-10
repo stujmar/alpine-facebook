@@ -393,6 +393,17 @@ template {
   border: 5px blue solid;
 }
 
+.menu-btn {
+  position: absolute;
+  z-index: 1;
+  right: 1rem;
+  top: 1rem;
+  height: 20px;
+  width: 28px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
 body {
   background: #693b3b;
   color: #fff;
