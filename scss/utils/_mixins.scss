@@ -18,3 +18,7 @@
         @content
     }
 }
+
+@mixin transition-ease {
+    transition: all 0.25s ease-in-out;
+}

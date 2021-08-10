@@ -428,6 +428,7 @@ main .social-icons {
 }
 main .social-icons a {
   padding: 0.4rem;
+  transition: all 0.25s ease-in-out;
 }
 main .social-icons a:hover {
   color: #e6ccb8;
