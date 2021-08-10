@@ -5,6 +5,7 @@
 
 @import './pages/index';
 @import './pages/about';
+@import './pages/menu';
 
 @function weight($weight-name) {
     @return map-get($font-weights, $weight-name);
