@@ -105,6 +105,10 @@
             color: $accent-color;
         }
     }
+}
 
-
+@for $i from 1 through 4 {
+    .menu-nav_link:nth-child(#{$i}) {
+        transition-delay: ($i * 0.1s) + 0.15s;
+    }
 }
