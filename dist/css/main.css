@@ -453,7 +453,9 @@ template {
 .nav.open {
   visibility: visible;
 }
-.nav .menu-nav {
+
+.nav-menu {
+  margin: 0;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -466,8 +468,8 @@ template {
   transform: translateY(-100%);
   transition: all 0.25s ease-in-out;
 }
-.nav .menu-nav.open {
-  transform: translateY(0);
+.nav-menu.open {
+  transform: translateY(0px);
 }
 
 body {
