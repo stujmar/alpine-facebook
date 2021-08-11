@@ -474,6 +474,14 @@ template {
 .menu-nav_link {
   transform: translateX(100vw);
   transition: all 0.25s ease-in-out;
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 0.5rem 2rem;
+  font-weight: 300;
+}
+.menu-nav_link:hover {
+  color: #e6ccb8;
 }
 .menu-nav_link.open {
   transform: translateX(0);

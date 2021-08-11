@@ -88,6 +88,15 @@
     &_link {
         transform: translateX(100vw);
         @include transition-ease;
+        display: inline-block;
+        font-size: 2rem;
+        text-transform: uppercase;
+        padding: .5rem 2rem;
+        font-weight: 300;
+
+        &:hover {
+            color: $accent-color;
+        }
         
         &.open {
             transform: translateX(0);
