@@ -454,7 +454,7 @@ template {
   visibility: visible;
 }
 
-.nav-menu {
+.menu-nav {
   margin: 0;
   display: flex;
   flex-flow: column wrap;
@@ -468,15 +468,18 @@ template {
   transform: translateY(-100%);
   transition: all 0.25s ease-in-out;
 }
-.nav-menu.open {
+.menu-nav.open {
   transform: translateY(0px);
 }
-.nav-menu_link {
+.menu-nav_link {
   transform: translateX(100vw);
   transition: all 0.25s ease-in-out;
 }
-.nav-menu.open {
+.menu-nav_link.open {
   transform: translateX(0);
+}
+.menu-nav_link.active > a {
+  color: #e6ccb8;
 }
 
 body {

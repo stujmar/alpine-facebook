@@ -67,7 +67,7 @@
 
 }
 
-.nav-menu {
+.menu-nav {
     margin: 0;
     display: flex;
     flex-flow: column wrap;
@@ -88,13 +88,14 @@
     &_link {
         transform: translateX(100vw);
         @include transition-ease;
+        
+        &.open {
+            transform: translateX(0);
+        }
+        &.active > a {
+            color: $accent-color;
+        }
     }
 
-    &.open {
-        transform: translateX(0);
-    }
 
-    &.active > a {
-        color: $secondary-color;
-    }
 }
