@@ -466,6 +466,9 @@ template {
   transform: translateY(-100%);
   transition: all 0.25s ease-in-out;
 }
+.nav .menu-nav.open {
+  transform: translateY(0);
+}
 
 body {
   background: #693b3b;
