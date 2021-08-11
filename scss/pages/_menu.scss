@@ -101,7 +101,8 @@
         &.open {
             transform: translateX(0);
         }
-        &.active > a {
+
+        &.active > a{
             color: $accent-color;
         }
     }
