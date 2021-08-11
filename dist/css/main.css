@@ -471,6 +471,13 @@ template {
 .nav-menu.open {
   transform: translateY(0px);
 }
+.nav-menu_link {
+  transform: translateX(100vw);
+  transition: all 0.25s ease-in-out;
+}
+.nav-menu.open {
+  transform: translateX(0);
+}
 
 body {
   background: #693b3b;
