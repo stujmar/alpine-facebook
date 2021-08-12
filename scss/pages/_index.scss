@@ -15,7 +15,7 @@
     background-size: cover;
 
     &_name {
-        font-size: 5rem;
+        font-size: 3rem;
         margin-bottom: 0;
         // padding-bottom: .25rem;
         margin-top: 1rem;
@@ -69,6 +69,12 @@
 @media only screen and (min-width: 768px) {
     body {
         border: $media-border solid green;
+    }
+
+    .home {
+        &_name {
+            font-size: 4rem;
+        }
     }
 }
 
