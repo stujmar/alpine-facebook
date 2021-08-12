@@ -401,6 +401,13 @@ template {
   body {
     border: 5px solid blue;
   }
+
+  .home {
+    padding-top: 30vh;
+  }
+  .home_name {
+    font-size: 5rem;
+  }
 }
 @media only screen and (min-width: 1280px) {
   body {
@@ -410,6 +417,10 @@ template {
 @media only screen and (min-width: 1536px) {
   body {
     border: 5px solid magenta;
+  }
+
+  .home {
+    padding-top: 35vh;
   }
 }
 .about {

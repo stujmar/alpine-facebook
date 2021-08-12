@@ -83,6 +83,13 @@
     body {
         border: $media-border solid blue;
     }
+
+    .home {
+        padding-top: 30vh;
+        &_name {
+            font-size: 5rem;
+        }
+    }
 }
 
 //'xl': '1280px',
@@ -97,4 +104,8 @@
     body {
         border: $media-border solid magenta;
     }
+    .home {
+        padding-top: 35vh;
+    }
 }
+
