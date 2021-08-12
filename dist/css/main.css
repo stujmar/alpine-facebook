@@ -409,7 +409,7 @@ template {
   }
 }
 .about {
-  border: 5px red solid;
+  padding: 20px;
 }
 .about .about_title {
   border: 5px green solid;
@@ -554,6 +554,10 @@ main .social-icons a {
   transition: all 0.25s ease-in-out;
 }
 main .social-icons a:hover {
+  color: #e6ccb8;
+}
+
+.text-secondary {
   color: #e6ccb8;
 }
 
