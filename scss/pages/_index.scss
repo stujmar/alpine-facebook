@@ -60,25 +60,35 @@
 
 // 'sm': '640px',
 @media (min-width: 640px) {
-
+    body {
+        border: 1px solid red;
+    }
 }
 
 // 'md': '768px',
 @media (min-width: 768px) {
-
+    body {
+        border: 1px solid green;
+    }
 }
 
 // 'lg': '1024px',
 @media (min-width: 1024px) {
-
+    body {
+        border: 1px solid blue;
+    }
 }
 
 //'xl': '1280px',
 @media (min-width: 1280px) {
-
+    body {
+        border: 1px solid yellow;
+    }
 }
 
 // '2xl': '1536px',
 @media (min-width: 1536px) {
-    
+    body {
+        border: 1px solid magenta;
+    }
 }
