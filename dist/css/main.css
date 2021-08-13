@@ -446,6 +446,10 @@ template {
   padding: 0 1rem 0;
 }
 
+.jobs {
+  padding: 0 0.5rem;
+}
+
 @media only screen and (min-width: 640px) {
   .about_bio-image > p {
     padding: 0.25rem 0 0 0;
