@@ -2,6 +2,8 @@
     padding-bottom: 2rem;
 
     &_bio-image {
+        box-sizing: border-box;
+        padding-bottom: 10rem;
         height: 50vh;
         width: 100%;
         background: 
@@ -17,15 +19,6 @@
         align-items: center;
         justify-content: flex-end;
     }
-
-    #{&}_title {
-        border: 5px green solid;
-    }
-
-    #{&}_body {
-        border: 5px blue solid;
-    }
-
 }
 
 // 'sm': '640px',

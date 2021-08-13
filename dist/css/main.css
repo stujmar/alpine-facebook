@@ -427,6 +427,8 @@ template {
   padding-bottom: 2rem;
 }
 .about_bio-image {
+  box-sizing: border-box;
+  padding-bottom: 10rem;
   height: 50vh;
   width: 100%;
   background: linear-gradient(to right, rgba(105, 59, 59, 0.4), rgba(105, 59, 59, 0.1)), url("../img/bg.jpg") center top;
@@ -435,12 +437,6 @@ template {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-}
-.about .about_title {
-  border: 5px green solid;
-}
-.about .about_body {
-  border: 5px blue solid;
 }
 
 .menu-btn {
