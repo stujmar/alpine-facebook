@@ -32,10 +32,24 @@
 
 // 'sm': '640px',
 @media only screen and (min-width: 640px) {
+    .about {
+        &_bio-image {
+            & > p {
+                padding: .25rem 0 0 0;
+            }
+        }
+    }
 }
 
 // 'md': '768px',
 @media only screen and (min-width: 768px) {
+    .about {
+        &_bio-image {
+            & > p {
+                padding: .5rem 0 0 0;
+            }
+        }
+    }
 }
 
 // 'lg': '1024px',
