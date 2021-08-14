@@ -442,7 +442,7 @@ template {
   color: #e6ccb8;
   font-size: 2.5rem;
   padding-bottom: 4px;
-  border-bottom: 4px solid white;
+  border-bottom: 4px solid #e6ccb8;
   text-shadow: 0px 5px 5px #693b3b;
   margin: 4px;
 }
