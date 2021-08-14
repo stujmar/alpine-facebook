@@ -439,6 +439,9 @@ template {
   justify-content: flex-end;
 }
 .about_bio-image > h2 {
+  color: white;
+  padding-bottom: 4px;
+  border-bottom: 2px solid white;
   margin: 4px;
 }
 .about_bio-image > p {

@@ -20,6 +20,9 @@
         justify-content: flex-end;
 
         & > h2 {
+            color: $text-color;
+            padding-bottom: 4px;
+            border-bottom: 2px solid $text-color;
             margin: 4px;
         }
 
