@@ -453,7 +453,12 @@ template {
 }
 
 .jobs {
+  width: 60vw;
   padding: 0 0.5rem;
+  margin: 2rem auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
 }
 
 @media only screen and (min-width: 640px) {
