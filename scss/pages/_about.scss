@@ -37,12 +37,21 @@
 }
 
 .jobs {
+
     width: 60vw;
     padding: 0 .5rem;
     margin: 2rem auto 0 auto;
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
+
+    &_job {
+        border: 1px solid white;
+
+        & > h2, h3, h6 {
+            margin: 0;
+        }
+    }
 }
 
 // 'sm': '640px',

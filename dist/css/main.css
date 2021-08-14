@@ -460,6 +460,12 @@ template {
   grid-template-columns: 1fr;
   gap: 2rem;
 }
+.jobs_job {
+  border: 1px solid white;
+}
+.jobs_job > h2, .jobs_job h3, .jobs_job h6 {
+  margin: 0;
+}
 
 @media only screen and (min-width: 640px) {
   .about_bio-image {
