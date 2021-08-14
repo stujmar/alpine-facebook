@@ -439,9 +439,11 @@ template {
   justify-content: flex-end;
 }
 .about_bio-image > h2 {
-  color: white;
+  color: #e6ccb8;
+  font-size: 2.5rem;
   padding-bottom: 4px;
-  border-bottom: 2px solid white;
+  border-bottom: 4px solid white;
+  text-shadow: 0px 5px 5px #693b3b;
   margin: 4px;
 }
 .about_bio-image > p {
@@ -454,14 +456,17 @@ template {
 }
 
 @media only screen and (min-width: 640px) {
+  .about_bio-image {
+    height: 30vh;
+  }
   .about_bio-image > p {
     padding: 0.25rem 0 0 0;
+    max-width: 80vw;
   }
 }
 @media only screen and (min-width: 768px) {
   .about_bio-image > p {
     padding: 0.5rem 0 0 0;
-    max-width: 80vw;
   }
 }
 .menu-btn {
