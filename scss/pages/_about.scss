@@ -31,12 +31,13 @@
         & > p {
             margin: 0;
             padding: 0 1rem 0;
+            text-align: center;
         }
     }
 }
 
 .jobs {
-    padding: 0 .5rem ;
+    padding: 0 .5rem;
 }
 
 // 'sm': '640px',
@@ -65,10 +66,28 @@
 
 // 'lg': '1024px',
 @media only screen and (min-width: 1024px) {
+    .about {
+        &_bio-image {
+            height: 45vh;
+            & > p {
+                padding: .25rem 0 0 0;
+                max-width: 80vw;
+            }
+        }
+    }
 }
 
 //'xl': '1280px',
 @media only screen and (min-width: 1280px) {
+    .about {
+        &_bio-image {
+            height: 50vh;
+            & > p {
+                padding: .25rem 0 0 0;
+                max-width: 80vw;
+            }
+        }
+    }
 }
 
 // '2xl': '1536px',
