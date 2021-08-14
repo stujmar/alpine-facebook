@@ -545,7 +545,7 @@ template {
   display: inline-block;
   font-size: 2rem;
   text-transform: uppercase;
-  padding: 0.5rem 2rem;
+  padding: 0.25rem 2rem;
   font-weight: 300;
 }
 .menu-nav_link:hover {
@@ -556,6 +556,7 @@ template {
 }
 .menu-nav_link.active > a {
   color: #e6ccb8;
+  padding: 0;
 }
 
 body {
