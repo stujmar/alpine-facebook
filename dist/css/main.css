@@ -352,6 +352,11 @@ template {
   color: #e6ccb8;
 }
 
+.alpine {
+  cursor: pointer;
+  border: 2px solid red;
+}
+
 .main {
   display: flex;
   flex-direction: row;

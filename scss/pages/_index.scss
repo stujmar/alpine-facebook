@@ -28,6 +28,11 @@
     }
 }
 
+.alpine {
+    cursor: pointer;
+    border: 2px solid red;
+}
+
 .main {
     @include flexCenter(row);
     color: $text-color;
