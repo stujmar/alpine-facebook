@@ -331,6 +331,14 @@ template {
   display: none;
 }
 
+.alpine-body {
+  background: white;
+}
+
+.alpine-header {
+  background: #3b5998;
+}
+
 .home {
   height: 100%;
   color: #fff;
