@@ -30,7 +30,14 @@
 
 .alpine {
     cursor: pointer;
-    border: 2px solid red;
+    border: 2px solid rgb(192, 131, 113);
+    background: rgb(160, 90, 69);
+    padding: 1px 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.178);
+}
+
+.alpine:hover {
+    background: rgb(192, 131, 113);
 }
 
 .main {
