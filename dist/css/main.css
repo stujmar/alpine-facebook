@@ -466,7 +466,10 @@ template {
   gap: 2rem;
 }
 .jobs_job {
-  border: 1px solid white;
+  border: 1px solid #ecc8b2;
+  padding: 5px 25px;
+  border-radius: 10px;
+  background-color: #8d6755;
 }
 .jobs_job > h2, .jobs_job h3, .jobs_job h6 {
   margin: 0;
