@@ -12,6 +12,10 @@
     @return map-get($font-weights, $weight-name);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: $primary-color;
     color: set-text-color($primary-color);

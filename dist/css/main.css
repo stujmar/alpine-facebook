@@ -337,8 +337,11 @@ template {
 
 .alpine-header {
   background: #3b5998;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
 }
-
 .home {
   height: 100%;
   color: #fff;
@@ -618,6 +621,10 @@ template {
 .menu-nav_link.active > a {
   color: #e6ccb8;
   padding: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
