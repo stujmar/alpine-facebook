@@ -13,9 +13,16 @@
     &-search {
         display: flex;
     }
+    
     &-links {
         display: flex;
+        &-link {
+            width: 25px;
+            height: 25px;
+            background: blue;
+        }
     }
+
     &-profile {
         display: flex;
     }

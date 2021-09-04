@@ -348,6 +348,11 @@ template {
 .alpine-header-links {
   display: flex;
 }
+.alpine-header-links-link {
+  width: 25px;
+  height: 25px;
+  background: blue;
+}
 .alpine-header-profile {
   display: flex;
 }
