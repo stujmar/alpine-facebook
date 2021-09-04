@@ -342,6 +342,16 @@ template {
   padding: 10px;
   align-items: center;
 }
+.alpine-header-search {
+  display: flex;
+}
+.alpine-header-links {
+  display: flex;
+}
+.alpine-header-profile {
+  display: flex;
+}
+
 .home {
   height: 100%;
   color: #fff;
