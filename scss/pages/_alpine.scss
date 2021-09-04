@@ -16,7 +16,7 @@
 
     &-links {
 
-        display: flex;
+        display: none;
         gap: 5px;
 
         &-link {
@@ -116,6 +116,42 @@
 
 // 'md': '768px',
 @media only screen and (min-width: 768px) {
+    .alpine-header { 
+        &-search {
+
+        }
+    
+        &-links {
+            display: flex;
+        }
+    }
+    
+    .search {
+        display: none;
+    
+        &-icon {
+        width: 40px;
+        padding: 10px;
+        height: 40px;
+        border-radius: 20px 0 0 20px;
+        background: #57595a;
+        overflow: hidden;
+    
+            &-svg {
+                padding: 3px;
+                margin-top: -3px;
+                color: #b0b3b8;
+            }
+        }
+        &-input {
+            background: #57595a;
+            border-radius: 0 20px 20px 0;
+            height: 40px;
+            border: none;
+            outline: none;
+            color: #b0b3b8;
+        }
+    }
 }
 
 // 'lg': '1024px',
