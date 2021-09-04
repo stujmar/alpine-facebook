@@ -347,11 +347,20 @@ template {
 }
 .alpine-header-links {
   display: flex;
+  gap: 5px;
 }
 .alpine-header-links-link {
-  width: 25px;
-  height: 25px;
-  background: blue;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+.alpine-header-links-link svg {
+  color: #b0b3b8;
+  display: block;
+  margin: 5px auto 0;
+}
+.alpine-header-links-link:hover {
+  background: #5d5d5e;
 }
 .alpine-header-profile {
   display: flex;
