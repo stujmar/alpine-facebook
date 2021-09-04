@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
 
-    padding: 10px;
+    padding: 7px;
     align-items: center;
 
     &-search {
@@ -29,17 +29,29 @@
     width: 40px;
     padding: 10px;
     height: 40px;
-
      border-radius: 20px 0 0 20px;
      background: #57595a;
      overflow: hidden;
+
         &-svg {
-            padding: 2px;
+            padding: 3px;
             margin-top: -3px;
             color: #b0b3b8;
         }
     }
     &-input {
-        border: 1px solid greenyellow;
+        background: #57595a;
+        border-radius: 0 20px 20px 0;
+        height: 40px;
+        border: none;
+        outline: none;
     }
+}
+
+::placeholder {
+    color: #b0b3b8;
+}
+
+.back {
+    height: 30px;
 }
