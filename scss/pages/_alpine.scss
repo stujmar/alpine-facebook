@@ -3,8 +3,7 @@
 }
 
 .alpine-header {
-    // background color that is facebook blue.
-    background: #3b5998;
+    background: #353738;
     display: flex;
     justify-content: space-between;
 
@@ -23,12 +22,23 @@
 }
 
 .search {
-    border: 1px solid white;
+
+    display: flex;
 
     &-icon {
-     border: 1px solid yellow;   
-    }
+    width: 40px;
+    padding: 10px;
+    height: 40px;
 
+     border-radius: 20px 0 0 20px;
+     background: #57595a;
+     overflow: hidden;
+        &-svg {
+            padding: 2px;
+            margin-top: -3px;
+            color: #b0b3b8;
+        }
+    }
     &-input {
         border: 1px solid greenyellow;
     }

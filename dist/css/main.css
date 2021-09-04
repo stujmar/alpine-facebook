@@ -336,7 +336,7 @@ template {
 }
 
 .alpine-header {
-  background: #3b5998;
+  background: #353738;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -353,10 +353,20 @@ template {
 }
 
 .search {
-  border: 1px solid white;
+  display: flex;
 }
 .search-icon {
-  border: 1px solid yellow;
+  width: 40px;
+  padding: 10px;
+  height: 40px;
+  border-radius: 20px 0 0 20px;
+  background: #57595a;
+  overflow: hidden;
+}
+.search-icon-svg {
+  padding: 2px;
+  margin-top: -3px;
+  color: #b0b3b8;
 }
 .search-input {
   border: 1px solid greenyellow;
