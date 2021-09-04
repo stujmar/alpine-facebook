@@ -350,20 +350,30 @@ template {
   gap: 5px;
 }
 .alpine-header-links-link {
-  width: 100px;
-  height: 50px;
-  border-radius: 10px;
+  width: 90px;
+  height: 45px;
+  border-radius: 7px;
 }
 .alpine-header-links-link svg {
   color: #b0b3b8;
   display: block;
-  margin: 10px auto 0;
+  margin: 7px auto 0;
 }
 .alpine-header-links-link:hover {
   background: #5d5d5e;
 }
 .alpine-header-profile {
   display: flex;
+}
+.alpine-header-profile-item {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+  background: #5d5d5e;
+}
+.alpine-header-profile-item:hover {
+  background: #7e7e7e;
 }
 
 .search {
@@ -388,6 +398,7 @@ template {
   height: 40px;
   border: none;
   outline: none;
+  color: #b0b3b8;
 }
 
 ::-moz-placeholder {
