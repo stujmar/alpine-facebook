@@ -332,7 +332,7 @@ template {
 }
 
 .alpine-body {
-  background: white;
+  background: #272727;
 }
 
 .alpine-header {
@@ -357,7 +357,7 @@ template {
 .alpine-header-links-link svg {
   color: #b0b3b8;
   display: block;
-  margin: 5px auto 0;
+  margin: 10px auto 0;
 }
 .alpine-header-links-link:hover {
   background: #5d5d5e;

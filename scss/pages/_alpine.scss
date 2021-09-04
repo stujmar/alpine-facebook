@@ -1,5 +1,5 @@
 .alpine-body {
-    background: white;
+    background: rgb(39, 39, 39);
 }
 
 .alpine-header {
@@ -28,7 +28,7 @@
         &-link svg {
             color: #b0b3b8;
             display: block;
-            margin: 5px auto 0;
+            margin: 10px auto 0;
         }
 
         &-link:hover {
