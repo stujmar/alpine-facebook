@@ -352,6 +352,16 @@ template {
   display: flex;
 }
 
+.search {
+  border: 1px solid white;
+}
+.search-icon {
+  border: 1px solid yellow;
+}
+.search-input {
+  border: 1px solid greenyellow;
+}
+
 .home {
   height: 100%;
   color: #fff;
