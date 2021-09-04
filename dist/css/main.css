@@ -377,7 +377,7 @@ template {
 }
 
 .search {
-  display: flex;
+  display: none;
 }
 .search-icon {
   width: 40px;
@@ -414,9 +414,38 @@ template {
 }
 
 .back {
-  height: 30px;
+  height: 40px;
+  width: 40px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background: linear-gradient(to top, #0e5f74, #5debeb);
 }
 
+.mobile-search {
+  height: 40px;
+  width: 40px;
+  background: #5d5d5e;
+  border: none;
+  border-radius: 50%;
+  color: #b0b3b8;
+  margin-top: 1px;
+  margin-left: -2px;
+}
+
+.back svg {
+  margin-left: -1px;
+  width: 40px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .search {
+    display: flex;
+  }
+
+  .mobile-search {
+    display: none;
+  }
+}
 .home {
   height: 100%;
   color: #fff;
