@@ -437,6 +437,17 @@ template {
   width: 40px;
 }
 
+.body {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  height: 500px;
+}
+.body-col {
+  border: 1px solid white;
+  width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
   .alpine-header-links {
     display: flex;
