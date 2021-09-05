@@ -7,8 +7,9 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #585858;
-    padding: 7px;
+    padding: 7px 7px 0;
     align-items: center;
+    height: 63px;
 
     &-search {
         display: flex;
@@ -17,23 +18,29 @@
     &-links {
 
         display: none;
-        gap: 5px;
+
 
         &-link {
-            width: 90px;
-            height: 45px;
-            border-radius: 7px;
+            padding-bottom: 5px;
+
+            &-button {
+                width: 90px;
+                height: 45px;
+                padding-top: 1px;
+                border-radius: 7px;
+                
+            }
+            &-button:hover {
+                background: rgb(93, 93, 94);
+            }
         }
 
         &-link svg {
             color: #b0b3b8;
             display: block;
-            margin: 7px auto 0;
+            margin: 6px auto 0;
         }
 
-        &-link:hover {
-            background: rgb(93, 93, 94);
-        }
     }
 
     &-profile {
@@ -153,6 +160,10 @@
     &-item:hover {
     background: rgb(93, 93, 94);
     }
+}
+
+.active {
+    border-bottom: 5px solid teal;
 }
 
 // 'sm': '640px',
