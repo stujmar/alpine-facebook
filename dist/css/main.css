@@ -448,19 +448,19 @@ template {
   width: 100%;
 }
 
-.top-links {
+.top-links, .bot-links {
   display: flex;
   flex-direction: column;
   padding: 16px;
   gap: 8px;
 }
-.top-links-item {
+.top-links-item, .bot-links-item {
   padding: 7px;
   border-radius: 7px;
   display: flex;
   align-items: center;
 }
-.top-links-item-icon {
+.top-links-item-icon, .bot-links-item-icon {
   margin-right: 6px;
   height: 35px;
   width: 35px;
@@ -468,14 +468,14 @@ template {
   border-radius: 50%;
   padding: 5px;
 }
-.top-links-item-icon svg {
+.top-links-item-icon svg, .bot-links-item-icon svg {
   margin-top: -2px;
   width: 25px;
   height: 25px;
   color: #2e2e2e;
 }
 
-.top-links-item:hover {
+.top-links-item:hover, .bot-links-item:hover {
   background: #5d5d5e;
 }
 

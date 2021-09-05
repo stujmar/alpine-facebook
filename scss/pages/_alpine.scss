@@ -120,7 +120,7 @@
     }
 }
 
-.top-links {
+.top-links, .bot-links {
     display: flex;
     flex-direction: column;
     padding: 16px;
@@ -149,7 +149,7 @@
     }
 }
 
-.top-links {
+.top-links, .bot-links {
     &-item:hover {
     background: rgb(93, 93, 94);
     }
