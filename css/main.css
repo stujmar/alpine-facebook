@@ -74,8 +74,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -399,14 +398,6 @@ template {
   height: 40px;
   border: none;
   outline: none;
-  color: #b0b3b8;
-}
-
-::-moz-placeholder {
-  color: #b0b3b8;
-}
-
-:-ms-input-placeholder {
   color: #b0b3b8;
 }
 
