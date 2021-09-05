@@ -121,6 +121,31 @@
     }
 }
 
+.top-links {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    &-item {
+        display: flex;
+        align-items: center;
+
+        &-icon {
+            margin-right: 6px;
+            height: 35px;
+            width: 35px;
+            background: $teal-fade;
+            border-radius: 50%;
+            padding: 5px;
+        }
+        &-icon svg {
+            margin-top: -2px;
+            width: 25px;
+            height: 25px;
+            color: rgb(46, 46, 46);
+        }
+    }
+}
+
 // 'sm': '640px',
 @media only screen and (min-width: 640px) {
 
