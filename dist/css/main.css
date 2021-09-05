@@ -339,6 +339,7 @@ template {
   background: #353738;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #585858;
   padding: 7px;
   align-items: center;
 }
@@ -428,8 +429,8 @@ template {
   border: none;
   border-radius: 50%;
   color: #b0b3b8;
-  margin-top: 1px;
-  margin-left: -2px;
+  padding: 10px;
+  margin-left: -3px;
 }
 
 .back svg {
@@ -444,16 +445,18 @@ template {
   height: 500px;
 }
 .body-col {
-  border: 1px solid white;
   width: 100%;
 }
 
 .top-links {
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  padding: 16px;
+  gap: 8px;
 }
 .top-links-item {
+  padding: 7px;
+  border-radius: 7px;
   display: flex;
   align-items: center;
 }
@@ -470,6 +473,10 @@ template {
   width: 25px;
   height: 25px;
   color: #2e2e2e;
+}
+
+.top-links-item:hover {
+  background: #5d5d5e;
 }
 
 @media only screen and (min-width: 768px) {
@@ -530,6 +537,12 @@ template {
 }
 .home_name--last {
   color: #e6ccb8;
+}
+
+.top-left-menu {
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 .alpine {
