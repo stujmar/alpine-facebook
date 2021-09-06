@@ -557,6 +557,8 @@ template {
   width: 25px;
 }
 .body-col-center-section-comments {
+  margin: 5px;
+  border-radius: 20px;
   border: 1px solid #f00;
 }
 
