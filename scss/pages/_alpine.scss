@@ -217,6 +217,23 @@
             width: 100%;
             height: 200px;
         }
+        &-buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-buttons button {
+            width: 50px;
+            display: flex;
+            background: none;
+            border: none;
+            color: $icon-gray;
+            flex-direction: column;
+            align-items: center;
+        }
+        &-buttons button svg {
+            width: 25px;
+        }
     }
 }
 
