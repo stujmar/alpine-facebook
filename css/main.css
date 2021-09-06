@@ -480,10 +480,27 @@ template {
 .body-col-center-section {
   display: flex;
   flex-direction: column;
-  border: 1px solid #585858;
+  background: #3d3d3d;
   margin: 15px 0 0;
   border-radius: 5px;
   overflow: hidden;
+}
+.body-col-center-section-name {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.body-col-center-section-name-mm {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  padding: 3px;
+}
+.body-col-center-section-name-mm:hover {
+  background: #5d5d5e;
+}
+.body-col-center-section-name-mm svg {
+  color: #b0b3b8;
 }
 .body-col-center-section-content {
   background: cadetblue;

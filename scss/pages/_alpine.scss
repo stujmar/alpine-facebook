@@ -172,10 +172,28 @@
     &-center-section {
         display: flex;
         flex-direction: column;
-        border: 1px solid #585858;
+        background: #3d3d3d;
         margin: 15px 0 0;
         border-radius: 5px;
         overflow: hidden;
+
+        &-name {
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+            &-mm {
+                border-radius: 50%;
+                width: 35px;
+                height: 35px;
+                padding: 3px;
+            }
+            &-mm:hover {
+                background: rgb(93, 93, 94);
+            }
+            &-mm svg {
+                color: $icon-gray;
+            }
+        }       
         &-content {
             background: cadetblue;
             width: 100%;
