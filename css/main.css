@@ -455,7 +455,7 @@ template {
   align-items: center;
 }
 .top-links-item-icon, .bot-links-item-icon {
-  margin-right: 6px;
+  margin-right: 8px;
   height: 35px;
   width: 35px;
   background: linear-gradient(to top, #0e5f74, #5debeb);
