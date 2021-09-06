@@ -490,6 +490,23 @@ template {
   display: flex;
   justify-content: space-between;
 }
+.body-col-center-section-name-left {
+  display: flex;
+}
+.body-col-center-section-name-left-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #353738;
+  border: 1px solid #585858;
+}
+.body-col-center-section-name-left-name {
+  margin-left: 10px;
+}
+.body-col-center-section-name-left-time {
+  margin: 5px 0px 0 10px;
+  font-size: 0.75rem;
+}
 .body-col-center-section-name-mm {
   border-radius: 50%;
   width: 35px;
