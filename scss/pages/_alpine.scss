@@ -1,9 +1,9 @@
 .alpine-body {
-    background: rgb(39, 39, 39);
+    background: $dark-gray;
 }
 
 .alpine-header {
-    background: #353738;
+    background: $medium-gray;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #585858;
@@ -188,7 +188,7 @@
     &-center-section {
         display: flex;
         flex-direction: column;
-        background: #3d3d3d;
+        background: $medium-gray;
         margin: 15px 0 0;
         border-radius: 5px;
         overflow: hidden;
@@ -254,7 +254,7 @@
         &-comments {
             margin: 5px;
             border-radius: 20px;
-            border: 1px solid #f00;
+            background: $light-gray;
         }
     }
 }

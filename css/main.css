@@ -331,11 +331,11 @@ template {
 }
 
 .alpine-body {
-  background: #272727;
+  background: #18191a;
 }
 
 .alpine-header {
-  background: #353738;
+  background: #242526;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #585858;
@@ -495,7 +495,7 @@ template {
 .body-col-center-section {
   display: flex;
   flex-direction: column;
-  background: #3d3d3d;
+  background: #242526;
   margin: 15px 0 0;
   border-radius: 5px;
   overflow: hidden;
@@ -559,7 +559,7 @@ template {
 .body-col-center-section-comments {
   margin: 5px;
   border-radius: 20px;
-  border: 1px solid #f00;
+  background: #3a3b3c;
 }
 
 @media only screen and (min-width: 768px) {
