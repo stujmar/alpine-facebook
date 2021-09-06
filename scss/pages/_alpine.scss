@@ -46,6 +46,22 @@
     &-profile {
         display: flex;
 
+        &-account {
+            display: flex;
+            align-items: center;
+
+            &-avatar {
+                width: 40px;
+                margin-right: 5px;;
+                height: 40px;
+                border-radius: 50%;
+                background:rgb(93, 93, 94)
+            }
+            &-name {
+                margin-right: 5px;
+                font-size: .9rem;
+            }
+        }
         &-item {
             width: 40px;
             height: 40px;
@@ -54,7 +70,7 @@
             background: rgb(93, 93, 94);
         }
 
-        &-item:hover {
+        &-item:hover, &-account-avatar:hover {
             background: rgb(126, 126, 126);
         }
     }

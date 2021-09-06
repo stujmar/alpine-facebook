@@ -369,6 +369,21 @@ template {
 .alpine-header-profile {
   display: flex;
 }
+.alpine-header-profile-account {
+  display: flex;
+  align-items: center;
+}
+.alpine-header-profile-account-avatar {
+  width: 40px;
+  margin-right: 5px;
+  height: 40px;
+  border-radius: 50%;
+  background: #5d5d5e;
+}
+.alpine-header-profile-account-name {
+  margin-right: 5px;
+  font-size: 0.9rem;
+}
 .alpine-header-profile-item {
   width: 40px;
   height: 40px;
@@ -376,7 +391,7 @@ template {
   margin-right: 8px;
   background: #5d5d5e;
 }
-.alpine-header-profile-item:hover {
+.alpine-header-profile-item:hover, .alpine-header-profile-account-avatar:hover {
   background: #7e7e7e;
 }
 
