@@ -36,7 +36,7 @@
         }
 
         &-link svg {
-            color: #b0b3b8;
+            color: $icon-gray;
             display: block;
             margin: 6px auto 0;
         }
@@ -74,7 +74,7 @@
         &-svg {
             padding: 3px;
             margin-top: -3px;
-            color: #b0b3b8;
+            color: $icon-gray;
         }
     }
     &-input {
@@ -83,12 +83,12 @@
         height: 40px;
         border: none;
         outline: none;
-        color: #b0b3b8;
+        color: $icon-gray;
     }
 }
 
 ::placeholder {
-    color: #b0b3b8;
+    color: $icon-gray;
 }
 
 .back {
@@ -106,7 +106,7 @@
     background:rgb(93, 93, 94);
     border: none;
     border-radius: 50%;
-    color: #b0b3b8;
+    color: $icon-gray;
     padding: 10px;
     margin-left: -3px;
 }
@@ -232,7 +232,7 @@
             &-svg {
                 padding: 3px;
                 margin-top: -3px;
-                color: #b0b3b8;
+                color: $icon-gray;
             }
         }
         &-input {
