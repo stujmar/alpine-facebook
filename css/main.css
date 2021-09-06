@@ -556,6 +556,9 @@ template {
 .body-col-center-section-buttons button svg {
   width: 25px;
 }
+.body-col-center-section-comments {
+  border: 1px solid #f00;
+}
 
 @media only screen and (min-width: 768px) {
   .alpine-header-links {
