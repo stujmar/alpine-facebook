@@ -153,7 +153,7 @@
         </div>
         <div class="body-col col-center">
             <!-- A POST -->
-            <div class="body-col-center-section" x-data="{ count: 0, likes: 0, comments: 0 }">
+            <div class="body-col-center-section" x-data="{ count: 0, likes: 0, comments: 0, shares: 0 }">
                 <div class="body-col-center-section-name">
                     <div class="body-col-center-section-name-left">
                         <div class="body-col-center-section-name-left-avatar"></div>
@@ -173,9 +173,11 @@
                 <div class="body-col-center-section-metrics">
                     <div class="body-col-center-section-metrics-left">
                         <span x-text="count"></span>
-                    </div
+                    </div>
                     <div class="body-col-center-section-metrics-right">
-                    </div
+                        <span x-text="comments"></span>
+                        <span x-text="shares"></span>
+                    </div>
 
                 </div>
                 <div class="body-col-center-section-buttons">
