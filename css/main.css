@@ -543,7 +543,9 @@ template {
 .body-col-center-section-metrics {
   display: flex;
   justify-content: space-between;
-  border: 1px solid green;
+  height: 25px;
+  margin: 5px 0;
+  padding: 0 8px;
 }
 .body-col-center-section-metrics-left {
   display: flex;
