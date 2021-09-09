@@ -546,12 +546,14 @@ template {
   border: 1px solid green;
 }
 .body-col-center-section-metrics-left {
-  border: 1px solid #f80af8;
+  display: flex;
+  align-items: center;
 }
 .body-col-center-section-metrics-left-icon {
   background: linear-gradient(to top, #1a7a92, #5debeb);
   padding: 4px;
   width: 25px;
+  margin-right: 5px;
   border-radius: 50%;
 }
 .body-col-center-section-metrics-right {
