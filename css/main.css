@@ -541,7 +541,15 @@ template {
   height: 200px;
 }
 .body-col-center-section-metrics {
+  display: flex;
+  justify-content: space-between;
   border: 1px solid green;
+}
+.body-col-center-section-metrics-left {
+  border: 1px solid #f80af8;
+}
+.body-col-center-section-metrics-right {
+  border: 1px solid yellow;
 }
 .body-col-center-section-buttons {
   display: flex;

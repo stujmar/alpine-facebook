@@ -235,7 +235,15 @@
             height: 200px;
         }
         &-metrics {
+            display: flex;
+            justify-content: space-between;
             border: 1px solid green;
+            &-left {
+                border: 1px solid rgb(248, 10, 248);
+            }
+            &-right {
+                border: 1px solid yellow;
+            }
         }
         &-buttons {
             display: flex;
