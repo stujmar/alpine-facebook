@@ -181,7 +181,10 @@
                     </div>
                     <div class="body-col-center-section-metrics-right">
                         <span x-text="comments"></span>
-                        <span x-show="shares >= 1" x-text="shares"></span>
+                        <div x-show="shares >= 1" >
+                            <span x-text="shares"></span>
+                            <span>Shares</span>
+                        </div>
                     </div>
 
                 </div>
