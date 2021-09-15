@@ -180,7 +180,10 @@
                         <span  x-show="likes > 1" x-text="likes"></span>
                     </div>
                     <div class="body-col-center-section-metrics-right">
-                        <span x-text="comments"></span>
+                        <div x-show="comments >= 1" >
+                            <span x-text="comments"></span>
+                            <span>Comments</span>
+                        </div>
                         <div x-show="shares >= 1" >
                             <span x-text="shares"></span>
                             <span>Shares</span>
