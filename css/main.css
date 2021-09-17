@@ -625,6 +625,10 @@ template {
     display: none;
   }
 }
+.body-col-right {
+  padding: 16px;
+}
+
 .home {
   height: 100%;
   color: #fff;
