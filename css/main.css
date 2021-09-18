@@ -625,6 +625,10 @@ template {
     display: none;
   }
 }
+.body-col-left {
+  border: 1px solid magenta;
+}
+
 .body-col-right {
   padding: 16px;
 }
