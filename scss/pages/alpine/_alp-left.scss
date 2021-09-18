@@ -1,12 +1,9 @@
 .body {
-    width: 100%;
     justify-content: space-between;
-    display: flex;
-    height: 500px;
     &-col {
         width: 100%;
         &-left {
-            flex-grow: 1;
+            display: none;
         }
     }
 }
@@ -21,6 +18,15 @@
 
 // 'lg': '1024px',
 @media only screen and (min-width: 1024px) {
+    .body {
+        &-col {
+            &-left {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
 }
 
 //'xl': '1280px',

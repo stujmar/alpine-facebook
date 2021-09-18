@@ -338,6 +338,10 @@ template {
   background: #18191a;
 }
 
+.body {
+  display: flex;
+}
+
 .top-links, .bot-links {
   display: flex;
   flex-direction: column;
@@ -620,20 +624,24 @@ template {
   }
 }
 .body {
-  width: 100%;
   justify-content: space-between;
-  display: flex;
-  height: 500px;
 }
 .body-col {
   width: 100%;
 }
 .body-col-left {
-  flex-grow: 1;
+  display: none;
 }
 
+@media only screen and (min-width: 1024px) {
+  .body-col-left {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .body-col-center {
   flex-grow: 1;
+  padding: 0 36px;
 }
 
 .body-col-right {
