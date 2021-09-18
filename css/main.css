@@ -330,6 +330,10 @@ template {
   display: none;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .alpine-body {
   background: #18191a;
 }
@@ -625,11 +629,16 @@ template {
   width: 100%;
 }
 .body-col-left {
-  border: 1px solid magenta;
+  flex-grow: 1;
+}
+
+.body-col-center {
+  flex-grow: 1;
 }
 
 .body-col-right {
   padding: 16px;
+  flex-grow: 1;
 }
 
 .rule {

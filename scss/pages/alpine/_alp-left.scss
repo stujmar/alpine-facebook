@@ -6,7 +6,7 @@
     &-col {
         width: 100%;
         &-left {
-            border: 1px solid magenta;
+            flex-grow: 1;
         }
     }
 }

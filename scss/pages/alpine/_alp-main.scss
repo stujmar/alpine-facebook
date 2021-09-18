@@ -1,9 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 .alpine-body {
     background: $dark-gray;
 }
 
 .body {
-
     &-col {
 
     }
