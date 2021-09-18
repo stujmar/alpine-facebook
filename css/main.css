@@ -334,16 +334,6 @@ template {
   background: #18191a;
 }
 
-.body {
-  width: 100%;
-  justify-content: space-between;
-  display: flex;
-  height: 500px;
-}
-.body-col {
-  width: 100%;
-}
-
 .top-links, .bot-links {
   display: flex;
   flex-direction: column;
@@ -624,6 +614,15 @@ template {
   .mobile-search {
     display: none;
   }
+}
+.body {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  height: 500px;
+}
+.body-col {
+  width: 100%;
 }
 .body-col-left {
   border: 1px solid magenta;
