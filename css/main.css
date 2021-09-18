@@ -629,6 +629,10 @@ template {
   padding: 16px;
 }
 
+.rule {
+  border-bottom: 2px solid teal;
+}
+
 .home {
   height: 100%;
   color: #fff;
