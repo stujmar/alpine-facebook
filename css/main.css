@@ -354,7 +354,7 @@ template {
   border-bottom: 1px solid #585858;
   padding: 0px 7px 0 16px;
   align-items: center;
-  height: 56px;
+  height: 63px;
 }
 .alpine-header-search {
   display: flex;
@@ -764,12 +764,12 @@ template {
 
 @media only screen and (min-width: 640px) {
   body {
-    border: 5px solid red;
+    border: 1px solid red;
   }
 }
 @media only screen and (min-width: 768px) {
   body {
-    border: 5px solid green;
+    border: 1px solid green;
   }
 
   .home_name {
@@ -790,12 +790,12 @@ template {
 }
 @media only screen and (min-width: 1280px) {
   body {
-    border: 5px solid yellow;
+    border: 1px solid yellow;
   }
 }
 @media only screen and (min-width: 1536px) {
   body {
-    border: 5px solid magenta;
+    border: 1px solid magenta;
   }
 
   .home {
