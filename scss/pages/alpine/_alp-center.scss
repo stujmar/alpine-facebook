@@ -7,6 +7,12 @@
     }
 }
 
+.meat-ball {
+    $icon-spacing: 3px;
+    margin: $icon-spacing 0 0 $icon-spacing;
+    width: 22px;
+}
+
 .body-col {
 
     &-center-section {
