@@ -1,0 +1,22 @@
+.bubble {
+    border: 1px solid greenyellow;
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+
+    &-item {
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+    }
+
+    &-item:hover {
+        background: $icon-gray;
+    }
+}
