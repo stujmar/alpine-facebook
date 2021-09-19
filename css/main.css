@@ -352,9 +352,9 @@ template {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #585858;
-  padding: 7px 7px 0 16px;
+  padding: 0px 7px 0 16px;
   align-items: center;
-  height: 63px;
+  height: 56px;
 }
 .alpine-header-search {
   display: flex;
@@ -778,7 +778,7 @@ template {
 }
 @media only screen and (min-width: 1024px) {
   body {
-    border: 5px solid blue;
+    border: 1px solid blue;
   }
 
   .home {
