@@ -1,6 +1,4 @@
 .bubble {
-    border: 1px solid greenyellow;
-
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -10,10 +8,16 @@
     right: 12px;
 
     &-item {
-        border: 1px solid white;
         border-radius: 50%;
         width: 45px;
         height: 45px;
+        background: $light-gray;
+
+        &-compose {
+            width: 20px;
+            margin: 0 auto;
+            margin: 12px 10px 12px 14px;
+        }
     }
 
     &-item:hover {

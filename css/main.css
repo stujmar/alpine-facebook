@@ -655,7 +655,6 @@ template {
 }
 
 .bubble {
-  border: 1px solid greenyellow;
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -664,10 +663,15 @@ template {
   right: 12px;
 }
 .bubble-item {
-  border: 1px solid white;
   border-radius: 50%;
   width: 45px;
   height: 45px;
+  background: #3a3b3c;
+}
+.bubble-item-compose {
+  width: 20px;
+  margin: 0 auto;
+  margin: 12px 10px 12px 14px;
 }
 .bubble-item:hover {
   background: #b0b3b8;
