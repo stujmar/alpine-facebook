@@ -93,4 +93,4 @@ headerPartial.innerHTML = `
 
 `;
 
-document.body.appendChild(headerPartial.content);
+document.body.insertBefore(headerPartial.content, document.body.firstChild);
