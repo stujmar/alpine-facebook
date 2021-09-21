@@ -3,12 +3,12 @@
 @import './utils/variables';
 @import './utils/mixins';
 
-@import './pages/alpine/alp-main';
-@import './pages/alpine/alp-header';
-@import './pages/alpine/alp-left';
-@import './pages/alpine/alp-center';
-@import './pages/alpine/alp-right';
-@import './pages/alpine/alp-messages';
+@import './partial/main';
+@import './partial/header';
+@import './partial/left';
+@import './partial/center';
+@import './partial/right';
+@import './partial/messages';
 
 
 @function weight($weight-name) {
