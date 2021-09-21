@@ -10,8 +10,6 @@
 @import './pages/alpine/alp-right';
 @import './pages/alpine/alp-messages';
 
-@import './pages/index';
-@import './pages/menu';
 
 @function weight($weight-name) {
     @return map-get($font-weights, $weight-name);
