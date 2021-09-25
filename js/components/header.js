@@ -2,11 +2,25 @@ const headerPartial = document.createElement('template');
 
 // const fs = require('fs')
 // const path = require('path')
-import fs from 'fs'
-import path from 'path'
+// import fs from 'fs'
+// import path from 'path'
 
-const headerPartial = fs.readFileSync(path.resolve(__dirname, './header.html'), 'utf8')
-console.log(headerPartial);
+// const headerPartial = fs.readFileSync(path.resolve(__dirname, './header.html'), 'utf8')
+// console.log(headerPartial);
+
+const fileUrl = './js/components/header.html';
+
+fetch(fileUrl)
+  .then(response => response.text())
+  .then(data => {
+  	// Do something with your data
+  	console.log(data);
+  });
+
+  fetch(fileUrl)
+   .then( r => r.text() )
+   .then( t => console.log(t) )
+
 
 headerPartial.innerHTML = `
 
