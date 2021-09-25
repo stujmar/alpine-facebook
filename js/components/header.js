@@ -1,5 +1,13 @@
 const headerPartial = document.createElement('template');
 
+// const fs = require('fs')
+// const path = require('path')
+import fs from 'fs'
+import path from 'path'
+
+const headerPartial = fs.readFileSync(path.resolve(__dirname, './header.html'), 'utf8')
+console.log(headerPartial);
+
 headerPartial.innerHTML = `
 
 <div class="alpine-header">
